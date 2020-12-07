@@ -1,0 +1,166 @@
+@media only screen and (max-width:395px) {
+    /* header */
+    #header {
+        display: none;
+    }
+    #header a {
+        font-size: 0.55em;
+    }
+    /* header */
+    /* content */
+    h5,
+    h6 {
+        font-size: 0.7em;
+    }
+    #accordion span {
+        font-size: 0.8em;
+    }
+    span {
+        font-size: 0.65em;
+    }
+    p {
+        font-size: 0.6em;
+    }
+    #news-content a {
+        font-size: 0.8em;
+    }
+    /* content */
+    /* footer */
+    footer a {
+        font-size: 0.6em;
+    }
+    /* footer */
+}
+
+@media only screen and (min-width:396px) and (max-width:575px) {
+    /* header */
+    #header {
+        display: none;
+    }
+    #header a {
+        font-size: 0.65em;
+    }
+    /* header */
+    /* content */
+    h5,
+    h6 {
+        font-size: 0.8em;
+    }
+    span {
+        font-size: 0.8em;
+    }
+    button {
+        font-size: 0.8em;
+    }
+    #accordion span {
+        font-size: 0.8em;
+    }
+    p {
+        font-size: 0.65em;
+    }
+    #news-content a {
+        font-size: 0.8em;
+    }
+    /* content */
+    /* footer */
+    footer a {
+        font-size: 0.7em;
+    }
+    /* footer */
+}
+
+@media only screen and (min-width:576px) and (max-width:775px) {
+    /* header */
+    #header {
+        display: none;
+    }
+    #header a {
+        font-size: 0.65em;
+    }
+    /* header */
+    /* content */
+    h5,
+    h6 {
+        font-size: 0.8em;
+    }
+    span {
+        font-size: 0.85em;
+    }
+    #accordion span {
+        font-size: 0.8em;
+    }
+    p {
+        font-size: 0.7em;
+    }
+    #news-content a {
+        font-size: 0.8em;
+    }
+    /* content */
+    /* footer */
+    footer a {
+        font-size: 0.8em;
+    }
+    /* footer */
+}
+
+@media only screen and (min-width:776px) and (max-width:995px) {
+    /* header */
+    #header-ris {
+        display: none;
+    }
+    #header a {
+        font-size: 0.75em;
+    }
+    /* header */
+    /* content */
+    h5,
+    h6 {
+        font-size: 0.85em;
+    }
+    #accordion span {
+        font-size: 0.85em;
+    }
+    p {
+        font-size: 0.75em;
+    }
+    #news-content a {
+        font-size: 0.8em;
+    }
+    /* content */
+    /* footer */
+    footer a {
+        font-size: 0.8em;
+    }
+    /* footer */
+}
+
+@media only screen and (min-width:996px) {
+    /* header */
+    #header-ris {
+        display: none;
+    }
+    #header a {
+        font-size: 0.80em;
+    }
+    /* header */
+    /* content */
+    h5,
+    h6 {
+        font-size: 1em;
+    }
+    #accordion span {
+        font-size: 1em;
+    }
+    p {
+        font-size: 1em;
+    }
+    #news-content a {
+        font-size: 0.9em;
+    }
+    /* content */
+    /* footer */
+    footer a {
+        font-size: 0.9em;
+    }
+    /* footer */
+}

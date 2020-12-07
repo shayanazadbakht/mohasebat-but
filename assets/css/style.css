@@ -1,0 +1,350 @@
+/* font */
+
+@font-face {
+    font-family: 'iransans';
+    src: url('../iransans/IRANSansWeb.eot');
+    src: url('../iransans/IRANSansWeb.woff') format('woff');
+    src: url('../iransans/IRANSansWeb.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'iransans';
+    direction: rtl;
+}
+
+
+/* font */
+
+* {
+    direction: rtl;
+}
+
+a {
+    text-decoration: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+input {
+    font-size: 12px !important;
+}
+
+
+/* hover */
+
+a:hover {
+    text-decoration: none;
+}
+
+.bg-image {
+    position: relative;
+    top: 85px;
+    background-color: #093d57;
+}
+
+.bg-hover {
+    transition: all 0.4s;
+    border-radius: 5px;
+    color: #050505;
+}
+
+.bg-hover:hover {
+    background-color: #01C664;
+    color: white !important;
+}
+
+.image-news {
+    bottom: 2px;
+    background-color: rgba(87, 83, 83, 0.474);
+    color: white;
+}
+
+.imager-org img {
+    transition: all 0.4s;
+}
+
+.imager-org:hover img {
+    transform: scale(1.15);
+}
+
+
+/* hover */
+
+
+/* costum class */
+
+.costum-hight {
+    height: 50px;
+    background-color: #FCFCFC;
+    font-size: 14px;
+}
+
+.costum-hight-2 {
+    height: 200px;
+    background-color: #FCFCFC;
+    font-size: 14px;
+}
+
+.border-costum-right {
+    border-right: 1px solid #01C664;
+    font-weight: 800;
+}
+
+.news-costum .row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+#margin-costum .row {
+    margin: 4px;
+}
+
+
+/*costumclass*/
+
+
+/* news top back black */
+
+#news {
+    background: #000000;
+}
+
+#news .row:first-child {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+#news ul {
+    margin: 0;
+}
+
+#news ul li {
+    padding: 10px 4px 10px 4px;
+}
+
+#news .ul-first:first-child {
+    background: #F23F7C;
+}
+
+#news ul a {
+    font-size: 0.8em;
+}
+
+
+/* news top back black */
+
+
+/* header */
+
+.header-ris-menu {
+    position: absolute;
+    z-index: 100;
+    list-style: none;
+    width: 70vw;
+    height: 85vh;
+    background-color: #074b78d5;
+    transition: all 0.3s;
+}
+
+#header-ris form {
+    position: relative;
+    top: 8px;
+}
+
+.header-ris-menu ul {
+    padding: 5% 10%;
+}
+
+.btn-ris-menu {
+    position: relative;
+    right: 5%;
+    z-index: 10;
+}
+
+.checkbox:checked~.header-ris-menu {
+    transform: translateX(85vh);
+}
+
+#addModal {
+    background-color: rgba(21, 52, 73, 0.733);
+}
+
+#header {
+    width: 100%;
+}
+
+#header .ui-search {
+    position: relative;
+    top: 17px;
+}
+
+
+/* header */
+
+.row-header {
+    position: relative;
+    top: 12px;
+    padding: 3%;
+}
+
+
+/* header */
+
+.emam-image {
+    position: relative;
+    left: 45%;
+}
+
+.z-index {
+    z-index: 100;
+}
+
+.border-costum-left {
+    border-left: 1px solid rgba(255, 255, 255, 0.397);
+    padding-left: 10px;
+}
+
+
+/* header */
+
+#links .card {
+    align-items: center;
+    transition: all 0.8s;
+}
+
+#links span {
+    color: white;
+    position: absolute;
+    padding: 8px;
+    bottom: 0;
+    width: 100%;
+    background: rgba(43, 42, 41, 0.349);
+    transition: all 0.4s;
+}
+
+#links .card:hover span {
+    bottom: 35%;
+}
+
+#me .row {
+    margin: 0 0 7px 0;
+}
+
+.card-body {
+    padding: 0.8rem 0.15rem 0 0 !important;
+}
+
+
+/* footer */
+
+.back-footer {
+    background: #171717;
+}
+
+.footer-copyright {
+    background: #074B78;
+}
+
+.text-costum-green {
+    color: #0C700A;
+}
+
+footer ul p {
+    width: 80%;
+}
+
+footer a {
+    line-height: 30px;
+    font-size: 0.9em;
+}
+
+footer .green {
+    box-shadow: 2px 1px 4px green;
+}
+
+.p-footer {
+    text-align: -webkit-center;
+}
+
+#net-so {
+    margin-top: 18px !important;
+}
+
+#net-so a {
+    font-size: 1.6rem;
+    color: #817e7e;
+}
+
+#net-so a .fa-twitter-square,
+.fa-facebook-square,
+.fa-google-plus-square,
+.fa-google-plus-square,
+.fa-telegram {
+    color: white;
+    transition: all 0.15s;
+}
+
+#net-so a .fa-twitter-square:hover {
+    color: #33CCFF;
+}
+
+#net-so a .fa-facebook-square:hover {
+    color: #4267B2;
+}
+
+#net-so a .fa-google-plus-square:hover {
+    color: #DF4B38;
+}
+
+#net-so a .fa-telegram:hover {
+    color: #0088CC;
+}
+
+#card-vorod {
+    width: 65%;
+}
+
+
+/* footer */
+
+#custom-footer span {
+    position: absolute;
+    bottom: 0px;
+    padding: 14px;
+    background: white;
+    opacity: 0.6;
+    color: #505050;
+}
+
+
+/* tamas bama */
+
+#card-tamas {
+    width: 65%;
+}
+
+#exampleFormControlTextarea1 {
+    background-color: #FCFCFC;
+}
+
+.shadow-costum {
+    box-shadow: 0px 0px 5px rgb(224, 222, 222);
+}
+
+.costum-hover .card:hover img {
+    opacity: 0.5;
+    transition: 0.2s ease-in-out;
+}
+
+.backme:hover {
+    background-color: white;
+    opacity: 1;
+}
+
+.p-404 {
+    width: 51%;
+}
